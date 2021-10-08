@@ -24,12 +24,11 @@ int main(){
                     total+=(cd[i]*notas[j]); 
                     div+=cd[i];
                 }
-               
+                
         }
+    system("cls");    
     total=total/div;   
-    printf("Seu CR e de aproximadamente %f",total);
-
-
+    printf("Seu CR e de aproximadamente %f \n",total);
     system("pause");
 
     return 0;
